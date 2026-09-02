@@ -2,10 +2,9 @@
 
 #let wolf_image = "wolf08_stnomadik.png"
 #slide(
-  [Wolf08: MPSoC Technology],
+  [Wolf08: Multiprocessor SoC Technology],
   (
-    [MPSoC: Multiple components on 1 Chip],
-    [Why? real-time, low-power & multitasking],
+    [History: Why? real-time, low-power & multitasking],
     [Video, audio, (irregular) memory, I/O, multicore],
     [CAD: Platform-based design, interconnects]
   ),

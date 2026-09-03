@@ -6,7 +6,8 @@
   (
     [History: Why? real-time, low-power & multitasking],
     [Video, audio, (irregular) memory, I/O, multicore],
-    [CAD: Platform-based design, interconnects]
+    [CAD: Platform-based design, interconnects],
+    [*Question*: Does the CPU often contain instructions that also accelerate video/audio acceleration? ]
   ),
   wolf_image,
 )

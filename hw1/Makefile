@@ -1,6 +1,7 @@
 CC=g++ -std=c++17
-CFLAGS=-g3
-LFLAGS=-lsystemc
+CFLAGS=-g3 -I$(SYSTEMC_HOME)/include
+LFLAGS=-L$(SYSTEMC_HOME)/lib-linux64 -Wl,-rpath=$(SYSTEMC_HOME)/lib-linux64 -lsystemc
+
 DEPS=hw1.h bmp.h
 OBJS=hw1.o
 

@@ -5,16 +5,16 @@
   align(center + horizon)[
     #grid(
       columns: (1fr, 0.92fr),
-      gutter: 0.25in,
+      gutter: 0.2in,
       align(left + horizon)[
         #text(size: 24pt, weight: "bold", fill: rgb("12355b"))[#title]
-        #v(0.15in)
+        #v(0.1in)
         #for bullet in bullets {
           block(width: 100%)[
             #text(fill: rgb("e07a5f"))[•]
             #h(0.08in)
             #bullet
-            #v(0.08in)
+            #v(0.0in)
           ]
         }
         
